@@ -21,9 +21,10 @@ reject("promise Failed and has been passed to 'catch parameter'");
     },3000 );
 
 });
+
  
 
-// **************** function used if sucess value is true ********************** 
+// #region **************** function used if sucess value is true ********************** 
 function LoopForDelay(){
 
     for (let x =0 ; x < 3000 ; x++)
@@ -31,7 +32,7 @@ function LoopForDelay(){
         console.log("Featch User Data First After 3 sec")
     } 
 }
-// **************** end ********************** 
+// #endregion **************** end ********************** 
 
 
 ThePromise
