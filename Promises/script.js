@@ -59,8 +59,7 @@ ThePromise
 )
 
 
-// ****************************** async and await ***************************************
-// #region
+// #region ************ async and await ***************
 async function GetUserData()
 {
     try
@@ -79,4 +78,3 @@ async function GetUserData()
 GetUserData();
 
 // #endregion
-// ****************************** End async and await ***************************************
