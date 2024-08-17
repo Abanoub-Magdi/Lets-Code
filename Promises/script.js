@@ -60,7 +60,7 @@ ThePromise
 
 
 // ****************************** async and await ***************************************
-
+// #region
 async function GetUserData()
 {
     try
@@ -77,3 +77,6 @@ async function GetUserData()
     }
 }
 GetUserData();
+
+// #endregion
+// ****************************** End async and await ***************************************
